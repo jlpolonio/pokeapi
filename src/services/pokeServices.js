@@ -1,6 +1,6 @@
 const pokeService = async(response, reject) => {
     try {
-        const results = await fetch("https://pokeapi.co/api/v2/pokemon/?offset=20&limit=20");
+        const results = await fetch("https://pokeapi.co/api/v2/pokemon/?offset=20&limit=30");
 
         return results;
     } catch (error) {
